@@ -26,7 +26,7 @@ flicks.factory('ReviewsFactory', function ReviewsFactory(){
     factory.addReview = function() {
         factory.reviews.push({
             title: factory.reviewTitle,
-            skill: factory.reviewBody,
+            body: factory.reviewBody,
             id: factory.reviews.length + 1
         });
         factory.reviewTitle = null;
