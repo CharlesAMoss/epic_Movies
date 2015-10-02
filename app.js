@@ -24,6 +24,25 @@ flicks.config(function($stateProvider) {
             'body': {
                 templateUrl: 'partials/reviews.html',
                 controller: 'ReviewsCtrl'
+            },
+
+        }
+    });
+
+    $stateProvider.state('reviews.review', {
+        url: '/:reviewId',
+        views: {
+            'header': {
+                templateUrl: 'partials/header.html',
+            },
+            'body': {
+                templateUrl: 'partials/reviews.html',
+                controller: 'ReviewsCtrl'
+            },
+            'content': {
+
+                templateUrl: 'partials/review.html',
+                controller: 'ReviewCtrl'
             }
         }
     });

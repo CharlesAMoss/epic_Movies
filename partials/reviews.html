@@ -4,26 +4,25 @@
     <div ng-show="reviews.length">
         <ul>
             <li ng-repeat="item in reviews">
-                <a href="#">{{ item.title }}</a>
+                <a ui-sref="reviews.review({ reviewId: item.id })">
+                {{ item.title }}
+                </a>
             </li>
         </ul>
     </div>
-
 </aside>
 
 <article class="main__article">
 
-    <h2 class="main__title">review title</h2>
-    <p class="main__body">review title</p>
-
+    <div ui-view="content"></div>
 
     <h2 class="main__title">create a new review</h2>
-    <form ng-submit="addReview()" role="form">
+    <form ng-submit="ReviewsFactory.addReview()" role="form">
 
         <input type="text" ng-model="ReviewsFactory.reviewTitle"  placeholder="title"><br />
         <textarea rows="3" type="text" ng-model="ReviewsFactory.reviewBody"  placeholder="Enter your review"></textarea>
 
-        <button type="submit" >Submit</button>
+        <button type="submit">Submit</button>
     </form>
 
 

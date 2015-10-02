@@ -4,11 +4,13 @@ flicks.factory('ReviewsFactory', function ReviewsFactory(){
 
     factory.reviews = [{
         title: "This is Spinal Tap is still better than most movies",
-        body: ""
+        body: "",
+        id: 1
     },
     {
         title: "The Princes bride: The unreachable peak of quality",
-        body: ""
+        body: "",
+        id: 2
     }];
 
     factory.addReview = function() {
