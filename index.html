@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="flicks">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <title>Nick's Flicks</title>
+
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="services/JobsFactory.js"></script>
+    <!-- // <script src="directives/myDirectives.js"></script>-->
+    <script src="controllers/ReviewsController.js"></script>
+    <meta content="width=device-width" name="viewport">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+    <nav ui-view="header"></nav>
+
+    <div class="wrapper">
+
+        <section  ui-view="body"></section>
+
+
+    </div>
+
+    <footer ui-view="footer" class="site__footer"></footer>
+
+</body>
+</html>
