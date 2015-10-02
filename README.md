@@ -2,7 +2,7 @@
 ## _A reviews website built with AngularJS, 10/2/2015_
 ### By [Charles Moss](https://twitter.com/CharlesMoss)
 ## Description
-_tbd_
+_Users can read and write reviews._
 
 ## Setup
 

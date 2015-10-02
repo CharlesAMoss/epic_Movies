@@ -15,6 +15,10 @@ body {
     height: 100%;
 }
 
+.inverted {
+	filter: invert(100%);
+}
+
 /* layout =================== */
 
 .site__title,.site__subtitle, nav, section, .footer__content {
