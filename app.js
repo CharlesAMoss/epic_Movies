@@ -1,6 +1,6 @@
 var flicks = angular.module('flicks', ['ui.router']);
 
-jobBoard.config(function($stateProvider) {
+flicks.config(function($stateProvider) {
 
     $stateProvider.state('home', {
         url: '',
@@ -9,21 +9,21 @@ jobBoard.config(function($stateProvider) {
                 templateUrl: 'partials/header.html',
             },
             'body': {
-                templateUrl: 'partials/body.html',
+                templateUrl: 'partials/welcome.html',
 
             }
         }
     });
 
-    $stateProvider.state('', {
-        url: '',
+    $stateProvider.state('reviews', {
+        url: '/reviews',
         views: {
             'header': {
                 templateUrl: 'partials/header.html',
             },
             'body': {
-                templateUrl: 'partials/freelancers.html',
-                controller: 'FreelancersCtrl'
+                templateUrl: 'partials/reviews.html',
+                controller: 'ReviewsCtrl'
             }
         }
     });
