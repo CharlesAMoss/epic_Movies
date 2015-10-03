@@ -5,9 +5,9 @@ html {
     height: 100%;
 }
 body {
-    background: #fff;
-    background: #f5f2f0;
-    color: #000;
+    background: #000;
+    background: #0A0D0F;
+    color: #fff;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
 /*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
     margin: 0 auto;
@@ -17,7 +17,7 @@ body {
 
 .night {
 	background: #000;
-    color : #fff;
+    font-color : #fff;
     border-color: #fff;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 header {
     /*background: #f5f2f0;*/
-    border-bottom: 1px solid #f5f2f0;
+    border-bottom: 1px solid #0A0D0F;
     padding: 100px 0 30px 0;
 
 }
@@ -87,7 +87,7 @@ aside {
 /* typography =============== */
 
 .site__title {
-    color: #1f1f1f;
+    color: #E0E0E0;
     font-size: 3.1rem;
     line-height: .29;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
@@ -96,7 +96,7 @@ aside {
 }
 
 .site__subtitle {
-    color: #727272;
+    color: #8D8D8D;
     font-size: 1.7rem;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     font-weight: 200;
@@ -107,7 +107,7 @@ aside {
 }
 
 .main__title {
-    color: #1f1f1f;
+    color: #E0E0E0;
     font-size: 3.9rem;
     line-height: .29;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
@@ -117,7 +117,7 @@ aside {
 }
 
 .main__subhead{
-    color: #1f1f1f;
+    color: #E0E0E0;
     font-size: 2rem;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
     line-height: normal;
@@ -129,7 +129,7 @@ aside {
 .main__body {
     font-size: 1rem;
     line-height: 24px;
-    color: #1f1f1f;
+    color: #E0E0E0;
 }
 
 .main__result {
@@ -147,10 +147,10 @@ aside {
 /* buttons =================== */
 
 .main__callToAction {
-    background: #d4d4d4;
+    background: #2B2B2B;
     border-radius: 4px;
-    border: 1px solid #727272;
-    color: #727272;
+    border: 1px solid #8D8D8D;
+    color: #8D8D8D;
     cursor: pointer;
     padding: .5em 3.6em;
     font-size: 1.8rem;
@@ -162,9 +162,9 @@ aside {
 }
 
 .main__callToAction:hover {
-    border: 1px solid #1f1f1f;
-    color: #1f1f1f;
-    background: #fff;
+    border: 1px solid #E0E0E0;
+    color: #E0E0E0;
+    background: #000;
     box-shadow: 0 3px 6px rgba(0,0,0,.16),
 }
 
@@ -236,7 +236,9 @@ aside a {
     width: 90%;
     border-radius: 4px;
     font-size: 1.2em;
-    border: 1px solid #727272;
+    border: 1px solid #8D8D8D;
+    background: #2B2B2B;
+    color: #E0E0E0;
     display: table;
 
 }
@@ -257,10 +259,10 @@ aside a {
     border: 1px solid #d6cac2;
 }
 .form__btn {
-    background: #d4d4d4;
+    background: #2B2B2B;
     border-radius: 4px;
-    border: 1px solid #727272;
-    color: #727272;
+    border: 1px solid #8D8D8D;
+    color: #8D8D8D;
     cursor: pointer;
     padding: 15px;
     font-size: 1em;
@@ -272,9 +274,9 @@ aside a {
 }
 
 .form__btn:hover {
-    border: 1px solid #1f1f1f;
-    color: #1f1f1f;
-    background: #fff;
+    border: 1px solid #E0E0E0;
+    color: #E0E0E0;
+    background: #000;
     box-shadow: 0 3px 6px rgba(0,0,0,.16),
 }
 

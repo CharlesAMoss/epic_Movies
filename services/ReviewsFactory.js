@@ -8,7 +8,7 @@ flicks.factory('ReviewsFactory', function ReviewsFactory(){
         id: 1
     },
     {
-        title: "The Princes bride: The unreachable peak of quality.",
+        title: "The Princess Bride: The unreachable peak of quality.",
         body: "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
         id: 2
     },
