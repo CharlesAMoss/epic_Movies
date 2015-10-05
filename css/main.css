@@ -191,7 +191,6 @@ aside {
     color: #E0E0E0;
     background: #000;
 }
-
 .nightmode__btn {
     position: absolute;
     top: 0;
@@ -206,7 +205,6 @@ aside {
     margin: 0;
     transition: 1s;
 }
-
 .night .nightmode__btn {
     background: #2B2B2B;
     color: #8D8D8D;
